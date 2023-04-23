@@ -6,15 +6,15 @@ Added explanations on a code reference
 
 
 
-
-## Plan to :
+## Roadmap :
     
-    ### Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
-    ### Add Redis Queue for messaging (DB as MySql or Postgres)
-    ### Deploy all the above via Docker, ECR, ECS (or K8), Service Registry
+    + Understand the code reference / add descriptions and notes
+    + Make a flow chart 
+    + Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
+    + Add Redis Queue for messaging (DB as MySql or Postgres)
+    + Deploy all the above via Docker, ECR, ECS (or K8), Service Registry
 
 
-------
 ## Web Architecture
 
 Server:
@@ -24,11 +24,17 @@ Client
     - ReactJS (SockJS -> open WebSocket, STOMP client -> ws endpoint/topics and wrap/unwrap messages)
 
 
-------
-## Flow 
+
+## Web Architecture (planning)
+    
+    
+    
+
+## Infra Architecture (planning)
 
 
-------
+
+
 ## ReactJS screen
 
 ![Chat screen](img/chat_screen.jpg "Chat screen")
