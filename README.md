@@ -8,7 +8,7 @@ Added explanations on a code reference
 
 ## Roadmap :
     
-    + ~~Understand the code reference / add descriptions and notes~~
+    + ~~Understand the code reference / add descriptions and notes~~.
     + Make a flow chart 
     + Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
     + Add Redis Queue for messaging (DB as MySql or Postgres)
