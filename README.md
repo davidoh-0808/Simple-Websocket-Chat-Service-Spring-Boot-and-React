@@ -5,7 +5,8 @@ Added explanations on a code reference
 [ [Tutorial Link](https://youtu.be/o_IjEDAuo8Y) ]
 
 
-------
+
+
 ## Plan to :
     
     ### Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
