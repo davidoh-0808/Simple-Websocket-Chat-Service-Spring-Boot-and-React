@@ -1,7 +1,6 @@
 # ChatApplication
 A simple Spring boot websocket backend and reactjs client
-Added explanations on a code reference 
-[Github Link](https://github.com/JayaramachandranAugustin/ChatApplication) 
+Added explanations on a code reference [ [Github Link](https://github.com/JayaramachandranAugustin/ChatApplication) ]
 [Tutorial Link](https://youtu.be/o_IjEDAuo8Y)
 
 Server:
