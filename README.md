@@ -34,6 +34,9 @@ Added explanations on a code reference
         STOMP client -> ws endpoint/topics and wrap/unwrap messages
 
 
+## Websocket Principles (planning)
+
+
 
 ## Web Architecture (planning)
     
