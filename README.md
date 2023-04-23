@@ -34,17 +34,17 @@ Added explanations on a code reference
         STOMP client -> ws endpoint/topics and wrap/unwrap messages
 
 
-## Websocket Principles (planning)
 
-
-
-## Service Flow Diagram (planning)
+## Sequence Diagram (planning)
    
     
     
 
 ## Infra Architecture (planning)
 
+
+
+## Websocket Principles (planning)
 
 
 
@@ -60,3 +60,4 @@ To start:
     
 ### Server
         - mvn spring-boot:run (in the spring-ws-server)
+
