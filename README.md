@@ -8,11 +8,11 @@ Added explanations on a code reference
 
 ## Roadmap :
     
-    + ~~Understand the code reference / add descriptions and notes~~.
-    + Make a flow chart 
-    + Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
-    + Add Redis Queue for messaging (DB as MySql or Postgres)
-    + Deploy all the above via Docker, ECR, ECS (or K8), Service Registry
+    + [DONE]    Understand the code reference / add descriptions and notes
+    + [Planned] Make a flow chart 
+    + [Planned] Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
+    + [Planned] Add Redis Queue for messaging (DB as MySql or Postgres)
+    + [Planned] Deploy all the above via Docker, ECR, ECS (or K8), Service Registry
 
 
 ## Web Architecture
