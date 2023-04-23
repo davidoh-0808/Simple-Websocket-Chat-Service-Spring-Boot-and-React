@@ -17,11 +17,15 @@ Added explanations on a code reference
 
 ## Web Architecture
 
-Server:
-    - Spring Boot (Websocket, STOMP Endpoint Registry, Redis as Queue(planned), Postgres(planned) )
+Server:     Spring Boot 
+    <br>Websocket, 
+    <br>STOMP Endpoint Registry, 
+    <br>Redis as Queue(planned), 
+    <br>Postgres(planned)
 
-Client
-    - ReactJS (SockJS -> open WebSocket, STOMP client -> ws endpoint/topics and wrap/unwrap messages)
+Client:     ReactJS 
+<br>SockJS -> open WebSocket, 
+<br>STOMP client -> ws endpoint/topics and wrap/unwrap messages
 
 
 
