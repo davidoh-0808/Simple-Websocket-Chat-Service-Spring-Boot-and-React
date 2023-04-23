@@ -10,7 +10,7 @@ Added explanations on a code reference
     
     + [DONE]    Understand the code reference / add notes on code
     + [DONE]    Write out the front and backend logic (based on reference)
-    + [Planned] Make a flow chart 
+    + [DONE]    Make a sequence diagram 
     + [Planned] Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
     + [Planned] Add Redis Queue for messaging (DB as MySql or Postgres)
     + [Planned] Deploy all the above via Docker, ECR, ECS (or K8), Service Registry
