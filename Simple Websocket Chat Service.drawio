@@ -1,11 +1,194 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T05:32:59.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="t2yXW4Lmaf5YSqciDgyw" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T06:11:53.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aH03vW9p4E65Vra7BHzM" version="21.2.1" type="github">
   <diagram name="Page-1" id="gxBy1PsdOPF4AwSAZ-yN">
-    <mxGraphModel dx="2506" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3356" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mLXvg7pdxv0KxrECnHtf-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="30" height="60" as="geometry" />
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-2" value="Chat Users" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-4" value="Client&lt;br&gt;(React.JS)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="437" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-5" value="Server&lt;br&gt;(Spring Boot)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="846" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="960" as="sourcePoint" />
+            <mxPoint x="470" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="127" as="sourcePoint" />
+            <mxPoint x="460" y="127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-12" value="Chat Join Request&lt;br&gt;Action : user input such as button click" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="165" as="sourcePoint" />
+            <mxPoint x="870" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-21" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="464" y="90" width="16" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="omiEdN0XK5e5Ezz4-x_P-24" target="omiEdN0XK5e5Ezz4-x_P-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Connect Websocket via Sock.js&lt;br&gt;&lt;br&gt;Send message via STOMP.js&lt;br&gt;STOMP endpoint /app/message&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;msg payload w/ status JOIN&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="117" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="omiEdN0XK5e5Ezz4-x_P-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="876" y="640" as="sourcePoint" />
+            <mxPoint x="876" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-25" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="869" y="90" width="19" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="omiEdN0XK5e5Ezz4-x_P-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="11" y="870" as="sourcePoint" />
+            <mxPoint x="7" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="41" y="960" as="sourcePoint" />
+            <mxPoint x="35.5" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.262;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="246" as="sourcePoint" />
+            <mxPoint x="483.192" y="246.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="246" />
+              <mxPoint x="495" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-22" value="Get Message Payload from STOMP endpoint uri /app/message&lt;br&gt;&lt;br&gt;send to STOMP message topic uri(msg payload w/ status JOIN)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.474;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461.81" y="280" as="sourcePoint" />
+            <mxPoint x="40" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101.81" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-35" value="Receive the message payload &lt;br&gt;from the STOMP message topic uri&lt;br&gt;&lt;br&gt;Filter the message payload status&lt;br&gt;render the browser to display the user connection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="195" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-36" value="Write public chat&lt;br&gt;Action : user input such as clicking public chatroom&lt;br&gt;, typing message&amp;nbsp;&lt;br&gt;, and clicking send button" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="345" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44" y="409" as="sourcePoint" />
+            <mxPoint x="464" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-39" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="464" y="360" width="16" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489" y="450" as="sourcePoint" />
+            <mxPoint x="869" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-42" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Connect Websocket via Sock.js&lt;br&gt;&lt;br&gt;Send message via STOMP.js&lt;br&gt;STOMP endpoint /app/message/public&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;msg payload w/ status JOIN&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="390" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-43" value="Write public chat&lt;br&gt;Action : user input such as clicking public chatroom&lt;br&gt;, typing message&amp;nbsp;&lt;br&gt;, and clicking send button" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="680" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-44" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="464" y="660" width="16" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44" y="750" as="sourcePoint" />
+            <mxPoint x="464" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489" y="780" as="sourcePoint" />
+            <mxPoint x="869" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.262;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="844" as="sourcePoint" />
+            <mxPoint x="483.192" y="844.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="844" />
+              <mxPoint x="495" y="844" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-51" value="Simlar to public chat,&lt;br&gt;STOMP endpoint /app/message/private" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="735" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-52" value="Similar to public chat except&lt;br&gt;Spring Boot server will render the private message endpoint&amp;nbsp;&lt;br&gt;into a user custom topic (ie. /user/{username}/chatroom/private" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="785" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.262;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="556" as="sourcePoint" />
+            <mxPoint x="491.192" y="556.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="868" y="556" />
+              <mxPoint x="503" y="556" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-54" value="Get Message Payload from STOMP endpoint uri /app/message&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;send to STOMP message topic uri(msg payload w/ status JOIN)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="522" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.474;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461.81" y="580" as="sourcePoint" />
+            <mxPoint x="40" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101.81" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-57" value="Receive the message payload &lt;br&gt;from the STOMP message topic uri&lt;br&gt;&lt;br&gt;Filter the message payload status&lt;br&gt;render the browser to display the public message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="495" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.474;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461.81" y="908" as="sourcePoint" />
+            <mxPoint x="40" y="908" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101.81" y="908" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-60" value="Receive the message payload &lt;br&gt;from the STOMP message topic uri&lt;br&gt;&lt;br&gt;Filter the message payload status&lt;br&gt;render the browser to display the private message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="823" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-61" value="User &lt;br&gt;Join Chatroom" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="102" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-62" value="Write / Receive&lt;br&gt;public chat" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-119" y="335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="omiEdN0XK5e5Ezz4-x_P-63" value="Write / Receive&lt;br&gt;private chat" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="667" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
