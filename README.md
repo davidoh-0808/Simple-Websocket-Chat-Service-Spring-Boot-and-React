@@ -6,10 +6,10 @@ Added explanations on a code reference
 
 
 ## ROADMAP :
-    + Websocket_v1_SpringBoot_React
-    + [Websocket_v2_SpringBoot_React_Redis](https://github.com/davidoh-0808/Websocket_v2_SpringBoot_React_Redis.git)
-    + [Websocket_v3_SpringBoot_React_Redis_Docker_ECS]()
-    + [Websocket_v4_SpringBoot_React_Redis_MSA]()
+   1) Websocket_v1_SpringBoot_React</br>
+   2) [Websocket_v2_SpringBoot_React_Redis](https://github.com/davidoh-0808/Websocket_v2_SpringBoot_React_Redis.git)</br>
+   3) [Websocket_v3_SpringBoot_React_Redis_Docker_ECS](https://github.com/davidoh-0808/Websocket_v3_SpringBoot_React_Redis_Docker_ECS.git)</br>
+   4) [Websocket_v4_SpringBoot_React_Redis_MSA](https://github.com/davidoh-0808/Websocket_v4_SpringBoot_React_Redis_MSA.git)</br>
 
 
 ## TODO :
@@ -49,7 +49,7 @@ Added explanations on a code reference
    
     
 
-## Frontend and Backend Logic (reference code basis)
+## Frontend and Backend Logic
 
     **Frontend Logic (React)**
     -------------------------------------------------------------------------------------------
