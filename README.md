@@ -1,20 +1,22 @@
 # ChatApplication
-A simple Spring boot websocket backend and reactjs client
+A simple chat service using Websocket, Spring Boot backend and React client
 Added explanations on a code reference 
 [ [Github Link](https://github.com/JayaramachandranAugustin/ChatApplication) ]
 [ [Tutorial Link](https://youtu.be/o_IjEDAuo8Y) ]
 
 
+## ROADMAP :
+    + Websocket_v1_SpringBoot_React
+    + [Websocket_v2_SpringBoot_React_Redis]()
+    + [Websocket_v3_SpringBoot_React_Redis_Docker_ECS]()
+    + [Websocket_v4_SpringBoot_React_Redis_MSA]()
 
-## Roadmap :
-    
+
+## TODO :
     + [DONE]    Understand the code reference / add notes on code
     + [DONE]    Write out the front and backend logic (based on reference)
     + [DONE]    Make a sequence diagram 
-    + [Planned] Edit some parts of code (edit/add websocket endpoints, topic urls, models, controllers, etc)
-    + [Planned] Add Redis Queue for messaging (DB as MySql or Postgres)
-    + [Planned] Deploy all the above via Docker, ECR, ECS (or K8), Service Registry
-
+    + [DONE]    Plan for WebsocketChat_ver2_SpringBoot_React_Redis
 
 
 ## Web Architecture
@@ -25,9 +27,13 @@ Added explanations on a code reference
         
         STOMP Endpoint Registry, 
         
-        Redis as Queue(planned), 
+        Redis PubSub / Stream (planned), 
         
-        Postgres(planned)
+        Postgres(planned),
+
+        Docker & AWS ECR & AWS ECS (planned),
+        
+        AWS API Gateway & AWS Lambda (planned)
 
     Client:   ReactJS 
     
@@ -37,9 +43,8 @@ Added explanations on a code reference
 
 
 
-## Sequence Diagram (planning)
+## Sequence Diagram w/ WS endpoints and APIs
    
-    [ [drawio](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Simple%20Websocket%20Chat%20Service.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D12Bm2z-tsIJh20_2C72pWCa2vkFhK1gS0%26export%3Ddownload) ]
 ![image](https://user-images.githubusercontent.com/75977587/233823295-5067fed7-1824-40bd-8370-76e02475fc6f.png)
    
     
@@ -178,7 +183,7 @@ Added explanations on a code reference
 
 
 
-## Websocket Principles (planning)
+## Websocket Principles
 
 ![image](https://user-images.githubusercontent.com/75977587/233829276-90c20029-8b37-4301-b739-4781ecf9d6db.png)
 Websocket vs. TCP
@@ -214,4 +219,19 @@ To start:
     
 ### Server
         - mvn spring-boot:run (in the spring-ws-server)
+
+
+
+### Plan for the next Git Repo 
+    [WebsocketChat_v2_SpringBoot_React_Redis]()
+    +  Edit the original code 
+       (edit/add websocket endpoints, topic urls, models, controllers, etc)
+
+    +  Add Redis PubSub and Streaming 
+       (Use Redis as the primary DB or use Postgres)
+
+    +  Deploy via Docker, ECR, ECS (or K8), Service Registry 
+       (perhaps on WebsocketChat_v3)
+
+
 
